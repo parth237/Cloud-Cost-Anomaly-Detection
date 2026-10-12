@@ -1,6 +1,6 @@
 # AI-Driven Cloud Cost Optimization & Anomaly Detection
 
-[![CI Pipeline](https://github.com/parth-vansadia/Cloud-Cost-Anomaly-Detection/actions/workflows/ci.yml/badge.svg)](https://github.com/parth-vansadia/Cloud-Cost-Anomaly-Detection/actions)
+[![CI Pipeline](https://github.com/parth237/Cloud-Cost-Anomaly-Detection/actions/workflows/ci.yml/badge.svg)](https://github.com/parth237/Cloud-Cost-Anomaly-Detection/actions)
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![Terraform](https://img.shields.io/badge/IaC-Terraform-purple.svg)
 ![AWS](https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure-orange.svg)
@@ -99,7 +99,7 @@ Cloud-Cost-Anomaly-Detection/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/parth-vansadia/Cloud-Cost-Anomaly-Detection.git
+   git clone https://github.com/parth237/Cloud-Cost-Anomaly-Detection.git
    cd Cloud-Cost-Anomaly-Detection
    ```
 
