@@ -81,7 +81,8 @@ Cloud-Cost-Anomaly-Detection/
 ├── terraform/
 │   ├── main.tf                    # AWS Lambda, IAM & EventBridge provisioning
 │   └── variables.tf               # Environment variables
-├── main.py                        # Central execution pipeline
+├── app.py                         # Interactive Streamlit FinOps web dashboard
+├── main.py                        # Central execution pipeline (CLI)
 ├── requirements.txt               # Python package dependencies
 ├── .gitignore
 └── README.md
@@ -108,10 +109,16 @@ Cloud-Cost-Anomaly-Detection/
    pip install -r requirements.txt
    ```
 
-3. Run the optimization audit:
+3. Run the optimization audit (CLI):
    ```bash
    python main.py
    ```
+
+4. Launch the Interactive Web Dashboard:
+   ```bash
+   streamlit run app.py
+   ```
+   *Opens the live interactive FinOps dashboard in your browser at `http://localhost:8501`.*
 
 ---
 
