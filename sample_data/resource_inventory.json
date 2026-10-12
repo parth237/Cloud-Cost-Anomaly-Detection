@@ -1,0 +1,57 @@
+[
+  {
+    "resource_id": "i-09ab12cd34ef5678a",
+    "resource_type": "ec2_instance",
+    "instance_type": "m5.2xlarge",
+    "region": "us-east-1",
+    "avg_cpu_percent": 3.4,
+    "max_cpu_percent": 8.1,
+    "current_monthly_cost": 280.32,
+    "environment": "staging",
+    "owner": "analytics-team"
+  },
+  {
+    "resource_id": "i-0fe45dc23ba987654",
+    "resource_type": "ec2_instance",
+    "instance_type": "t3.medium",
+    "region": "us-east-1",
+    "avg_cpu_percent": 68.2,
+    "max_cpu_percent": 91.5,
+    "current_monthly_cost": 30.36,
+    "environment": "production",
+    "owner": "web-team"
+  },
+  {
+    "resource_id": "vol-087654321abcdef01",
+    "resource_type": "ebs_volume",
+    "volume_size_gb": 500,
+    "volume_type": "gp3",
+    "state": "available",
+    "days_unattached": 32,
+    "current_monthly_cost": 40.00,
+    "region": "us-east-1",
+    "owner": "dev-ops"
+  },
+  {
+    "resource_id": "vol-0123456789fedcba2",
+    "resource_type": "ebs_volume",
+    "volume_size_gb": 1000,
+    "volume_type": "io2",
+    "state": "available",
+    "days_unattached": 45,
+    "current_monthly_cost": 125.00,
+    "region": "us-east-1",
+    "owner": "qa-team"
+  },
+  {
+    "resource_id": "db-analytics-reporting-replica",
+    "resource_type": "rds_instance",
+    "instance_class": "db.r5.xlarge",
+    "avg_connections": 0,
+    "avg_cpu_percent": 1.2,
+    "current_monthly_cost": 248.20,
+    "region": "us-east-1",
+    "environment": "dev",
+    "owner": "bi-team"
+  }
+]

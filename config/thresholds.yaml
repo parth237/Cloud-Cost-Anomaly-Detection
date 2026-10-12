@@ -1,0 +1,17 @@
+anomaly_detection:
+  cost_spike_threshold_percent: 25.0
+  z_score_threshold: 2.0
+  rolling_window_days: 7
+
+rightsizing_rules:
+  ec2:
+    idle_cpu_threshold_percent: 5.0
+    underutilized_cpu_threshold_percent: 20.0
+  ebs:
+    flag_unattached_volumes: true
+  rds:
+    idle_connection_threshold: 2
+
+reporting:
+  currency: "USD"
+  output_format: "table"
